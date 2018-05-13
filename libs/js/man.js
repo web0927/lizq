@@ -1,1 +1,1 @@
-var n=1,m=10;function min(){return console.log(n+m+1)}
+var str="",mySwipers=new Swiper(".cont",{slideChange:function(){alert(1)}}),mySwiper=new Swiper(".contion",{loop:!0,autoplay:{delay:1e3},pagination:{el:"swiper-pagination"}});$("nav").on("click","span",function(){$(this).toggleClass("action").siblings().removeClass("action"),mySwipers.slideTo($(this).index())}),$.ajax({url:"/login",success:function(n){$.each(n,function(n,i){console.log(n,i)})}});

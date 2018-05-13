@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer')
 //压缩css 
 var minCss = require('gulp-clean-css')
-//合并css
+//压缩js
 var minJs = require('gulp-uglify')
 //压缩html
 var minHtml = require('gulp-htmlmin');

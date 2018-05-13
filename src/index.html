@@ -5,24 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 375 * 100 + 'px';
+    </script>
     <link rel="stylesheet" href="./css/swiper-4.1.6.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./font/iconfont.css">
 </head>
 <body>
-    wode任务
-    <i class="iconfont icon-wode"></i>
+
+
+    <div class="wrap">
+        <header>
+            <i class="iconfont icon-yuyin"></i>
+            <div class="inputTop">
+                <input type="text" placeholder="给你推荐,菩提劫">
+                <i class="iconfont icon-fangdajing"></i>
+            </div>
+            <i class="iconfont icon-shouqi-01"></i>
+        </header>
+        <nav>
+            <span class='action'>
+                音乐
+            </span>
+            <span>
+                视频
+            </span>
+            <span>
+                电台
+            </span>
+        </nav>
+        <section>
+            <div class="swiper-container cont">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background: antiquewhite">
+                        <div class="swiper-container contion">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/01.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/02.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/03.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/04.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <ul class="list">
+                            <li>
+                                <i class="iconfont icon-shouye"></i>
+                                <span>私人fm</span>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-shouye"></i>
+                                <span>每日推荐</span>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-shouye"></i>
+                                <span>歌单</span>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-shouye"></i>
+                                <span>排行榜</span>
+                            </li>
+                        </ul>
+                        <p>
+                            <span>推荐歌单</span>
+                            <i class="iconfont icon-angle-right"></i>
+                        </p>
+                        <div class="cont-cont">
+                            <div class="cont-img">
+                                <img src="./img/p1.png" alt="">
+                                <span>
+                                    [春日漫游指南]
+                                </span>
+                            </div>
+                            <div class="cont-img">
+                                <img src="./img/p2.png" alt="">
+                                <span>
+                                    [春日漫游指南]
+                                </span>
+                            </div>
+                            <div class="cont-img">
+                                <img src="./img/p3.png" alt="">
+                                <span>
+                                    [春日漫游指南]
+                                </span>
+                            </div>
+                            <div class="cont-img">
+                                <img src="./img/p3.png" alt="">
+                                <span>
+                                    [春日漫游指南]
+                                </span>
+                            </div>
+                            <div class="cont-img">
+                                <img src="./img/p2.png" alt="">
+                                <span>
+                                    [春日漫游指南]
+                                </span>
+                            </div>
+                            <div class="cont-img">
+                                <img src="./img/p1.png" alt="">
+                                <span>
+                                    [春日漫游指南]
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style='background: blueviolet'>
+                    
+                    </div>
+                    <div class="swiper-slide" style="background: aquamarine">
+                    
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+
+
     <script src="./js/jquery-2.1.1.js"></script>
     <script src="./js/bscroll.min.js"></script>
     <script src="./js/swiper-4.1.6.min.js"></script>
     <script src="./js/man.js"></script>
     <script>
-        $.ajax({
-            url:'/login',
-            success:function (data) {
-                console.log(data)
-            }
-        })
+        
     </script>
 </body>
 </html>

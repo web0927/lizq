@@ -1,3 +1,9 @@
 [
-    {"title":"列表","name":"内容"}
+    {"pic":"./img/p1.png", "text":"[春日漫游指南]"},
+    {"pic":"./img/p2.png", "text":"[夏日漫游指南]"},
+    {"pic":"./img/p3.png", "text":"[秋日漫游指南]"},
+    {"pic":"./img/p3.png", "text":"[冬日漫游指南]"},
+    {"pic":"./img/p2.png", "text":"[好日子漫游指南]"},
+    {"pic":"./img/p1.png", "text":"[春日漫游指南]"}
+
 ]
